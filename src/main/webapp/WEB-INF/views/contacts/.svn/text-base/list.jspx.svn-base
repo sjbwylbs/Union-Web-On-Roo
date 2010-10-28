@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_gbd_union_domain_Contact" items="${contacts}" z="+CN3F8xQiu/BrJ5Uac80hUR2YLU=">
+        <table:table data="${contacts}" id="l_com_gbd_union_domain_Contact" path="/contacts" z="/lV8AlfVRT2po6MYCNwPZ1MmS/4=">
+            <table:column id="c_com_gbd_union_domain_Contact_name" property="name" z="u3FQ8VzHedXswmCAIdbnAFNAy6g="/>
+            <table:column id="c_com_gbd_union_domain_Contact_mobile" property="mobile" z="z+2CqHM0Y/wC6y5bJ2WRp1xwWRc="/>
+            <table:column id="c_com_gbd_union_domain_Contact_qq" property="qq" z="ywG3sFxe9oBSkSTNxBx+n+9VwxI="/>
+            <table:column id="c_com_gbd_union_domain_Contact_email" property="email" z="BsMhcs4/KpQ4+D3sNS6jqgvPqEc="/>
+            <table:column id="c_com_gbd_union_domain_Contact_contactType" property="contactType" z="cctL9lKBr9lodHNun2xBnoOKq3Y="/>
+            <table:column id="c_com_gbd_union_domain_Contact_company" property="company" z="OMwX8GCO7tCVHFX08UjjLW94sfQ="/>
+        </table:table>
+    </page:list>
+</div>

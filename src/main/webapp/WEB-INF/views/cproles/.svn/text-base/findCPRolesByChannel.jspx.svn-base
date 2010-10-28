@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:find finderName="ByChannel" id="ff_com_gbd_union_domain_CPRole" path="/cproles" z="BdrXPTxoEmgMOakklLCRRYmDTdg=">
+        <field:select disableFormBinding="true" field="channel" id="f_com_gbd_union_domain_CPRole_channel" itemValue="id" items="${channels}" path="/channels" required="true" z="TghefY0sqH7To0mqZwt6HCKDYRU="/>
+    </form:find>
+</div>

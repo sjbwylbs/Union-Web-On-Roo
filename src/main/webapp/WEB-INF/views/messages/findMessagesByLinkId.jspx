@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:find finderName="ByLinkId" id="ff_com_gbd_union_domain_Message" path="/messages" z="HPyVobjHFoZ6VDE5Zlk6Yn5wakY=">
+        <field:input disableFormBinding="true" field="linkId" id="f_com_gbd_union_domain_Message_linkId" max="20" z="6lDFtjZ8qnFWkEmsOpqipxyZLOE="/>
+    </form:find>
+</div>

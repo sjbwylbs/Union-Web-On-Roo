@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_gbd_union_domain_MobileCity" items="${mobilecitys}" z="ZPJPrWiR05UB79TYjQuHQnJHOPE=">
+        <table:table data="${mobilecitys}" id="l_com_gbd_union_domain_MobileCity" path="/mobilecitys" z="kJzdi0ZsLBYk4FbhEYnrmAeVCh0=">
+            <table:column id="c_com_gbd_union_domain_MobileCity_mobilePrefix" property="mobilePrefix" z="nSIyCUBdpmKSIUMpzsY9IYjJcyc="/>
+            <table:column id="c_com_gbd_union_domain_MobileCity_city" property="city" z="e+4d/BoJSaruphQrWyaaSIDuN5w="/>
+        </table:table>
+    </page:list>
+</div>

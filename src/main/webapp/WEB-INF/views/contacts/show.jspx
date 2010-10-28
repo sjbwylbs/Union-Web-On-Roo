@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_gbd_union_domain_Contact" object="${contact}" path="/contacts" z="438Yah9G6w+wOB9MQwE3a+6Csb0=">
+        <field:display field="name" id="s_com_gbd_union_domain_Contact_name" object="${contact}" z="7GqEvKp/6TTYIDMKSma37lIWzvg="/>
+        <field:display field="mobile" id="s_com_gbd_union_domain_Contact_mobile" object="${contact}" z="u6RM27m+TqPCUvBA84N8r7A3DY0="/>
+        <field:display field="qq" id="s_com_gbd_union_domain_Contact_qq" object="${contact}" z="DVvYQfyvVbUizzXQN7FehbHxkrA="/>
+        <field:display field="email" id="s_com_gbd_union_domain_Contact_email" object="${contact}" z="+gRMaYT/Ewzcbgz9XiRkORzl+D8="/>
+        <field:display field="contactType" id="s_com_gbd_union_domain_Contact_contactType" object="${contact}" z="q/78HvKTYNxN2dkn0eqVdtGPmGU="/>
+        <field:display field="company" id="s_com_gbd_union_domain_Contact_company" object="${contact}" z="zCyIymPF0fJ5M1ZVr8SFbjEuA0M="/>
+    </page:show>
+</div>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_gbd_union_domain_Company" object="${company}" path="/companys" z="q5IIopIG64OVlW1keYpKJ1nT//Q=">
+        <field:display field="name" id="s_com_gbd_union_domain_Company_name" object="${company}" z="IeAmuseAKe2yZqgw3PEE+tBSjS8="/>
+        <field:display field="address" id="s_com_gbd_union_domain_Company_address" object="${company}" z="Wi46JNy19YjtP5rf/AcsE4l4JEQ="/>
+        <field:display field="companyType" id="s_com_gbd_union_domain_Company_companyType" object="${company}" z="L5UAXd82ADD+XgQTrd4xRmigGgI="/>
+        <field:display field="bankUserName" id="s_com_gbd_union_domain_Company_bankUserName" object="${company}" z="alO5wr+ywJhrmRvr6uq6wHbA6Lo="/>
+        <field:display field="bankName" id="s_com_gbd_union_domain_Company_bankName" object="${company}" z="FnNyJ0tUeTjDEFPNu+plth/yrPE="/>
+        <field:display field="bankAddress" id="s_com_gbd_union_domain_Company_bankAddress" object="${company}" z="b4c3wFR+beOuA9Cq60LON70rbGU="/>
+        <field:display field="bankNumber" id="s_com_gbd_union_domain_Company_bankNumber" object="${company}" z="1LheI41gLymdxzkIMHFZlfNqyJA="/>
+        <field:display field="person" id="s_com_gbd_union_domain_Company_person" object="${company}" z="oqZzq0B2KGypGw0F+YL53YVSbJE="/>
+    </page:show>
+</div>

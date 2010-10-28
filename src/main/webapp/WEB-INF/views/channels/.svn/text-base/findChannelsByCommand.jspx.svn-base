@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:find finderName="ByCommand" id="ff_com_gbd_union_domain_Channel" path="/channels" z="/HocuQZqX6kOXXojwWM2fK3irWw=">
+        <field:input disableFormBinding="true" field="command" id="f_com_gbd_union_domain_Channel_command" max="100" required="true" z="4qOgCfyyTWKfFnv2Y1Pjf9dpZTg="/>
+    </form:find>
+</div>

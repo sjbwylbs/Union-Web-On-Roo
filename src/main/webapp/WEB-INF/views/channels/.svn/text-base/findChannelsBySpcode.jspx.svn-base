@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:find finderName="BySpcode" id="ff_com_gbd_union_domain_Channel" path="/channels" z="KQFq215WdM8VR/Fa32AB6I111gM=">
+        <field:input disableFormBinding="true" field="spcode" id="f_com_gbd_union_domain_Channel_spcode" max="20" required="true" z="Ivbi2zcUe5GcNmYQSqPunsekV/A="/>
+    </form:find>
+</div>

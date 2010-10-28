@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:find finderName="ByCreatedBetween" id="ff_com_gbd_union_domain_Message" path="/messages" z="GfjYd1UFq0aN3rAHAx/fwwiyF2A=">
+        <field:datetime dateTimePattern="${message_mincreated_date_format}" disableFormBinding="true" field="minCreated" id="f_com_gbd_union_domain_Message_minCreated" required="true" z="htZvh6ynlyLIfP2uY55cflbo2Zk="/>
+        <field:datetime dateTimePattern="${message_maxcreated_date_format}" disableFormBinding="true" field="maxCreated" id="f_com_gbd_union_domain_Message_maxCreated" required="true" z="/sTACwzL/sllPB4Pq2xMkSI62y4="/>
+    </form:find>
+</div>

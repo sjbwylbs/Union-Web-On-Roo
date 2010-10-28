@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_gbd_union_domain_Rule" items="${rules}" z="8FAblZomuf7cg2onpHfRgwgyAts=">
+        <table:table data="${rules}" id="l_com_gbd_union_domain_Rule" path="/rules" z="V+ozU+Xqnr6UZufHCABW2WaKz2w=">
+            <table:column id="c_com_gbd_union_domain_Rule_name" property="name" z="YAaYTK426+RMaWYRdsilVFC9aZQ="/>
+            <table:column id="c_com_gbd_union_domain_Rule_descn" property="descn" z="41Qf9RhzaKNawR6+5a3bBhofRMs="/>
+            <table:column id="c_com_gbd_union_domain_Rule_res" property="res" z="HQJUb0q1par5IvqVtdBYIHAZY8M="/>
+            <table:column id="c_com_gbd_union_domain_Rule_person" property="person" z="w0wTMALAxfL+z29bnuSINsPcxkU="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_gbd_union_domain_CPRole" object="${cprole}" path="/cproles" z="BbbnnMma0gh3hf+UtpRR0jpvrLs=">
+        <field:display field="command" id="s_com_gbd_union_domain_CPRole_command" object="${cprole}" z="BLBNGtsPuQ3r8AlIlHAO0JPM3HQ="/>
+        <field:display field="url" id="s_com_gbd_union_domain_CPRole_url" object="${cprole}" z="g4xRZ7CX/7P5RRxAVN85acIqsQM="/>
+        <field:display field="rate" id="s_com_gbd_union_domain_CPRole_rate" object="${cprole}" z="bc2XsUTNI3sW7EaIRSZknWCc9oY="/>
+        <field:display field="channel" id="s_com_gbd_union_domain_CPRole_channel" object="${cprole}" z="N7EvSS9q+7UPtGUxEn+Vr/L4Ey4="/>
+        <field:display field="cp" id="s_com_gbd_union_domain_CPRole_cp" object="${cprole}" z="8xaf0yIG/84jlPQjdGz4RkrpIzQ="/>
+    </page:show>
+</div>

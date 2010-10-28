@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_gbd_union_domain_Channel" items="${channels}" z="Uui2Sen0bZ5RkfeleHcm3/h+zqE=">
+        <table:table data="${channels}" id="l_com_gbd_union_domain_Channel" path="/channels" z="D8Br1nMp/sadnabei8giTFc7/Lc=">
+            <table:column id="c_com_gbd_union_domain_Channel_spcode" property="spcode" z="/a1FJZM4BwPqLUW0SDkge7tv7NU="/>
+            <table:column id="c_com_gbd_union_domain_Channel_serviceId" property="serviceId" z="qlyG9hDONMwst6FkoNOKV3sYd0w="/>
+            <table:column id="c_com_gbd_union_domain_Channel_command" property="command" z="xvaiOZOg87lQ8vFefjmFcHUmOwA="/>
+            <table:column id="c_com_gbd_union_domain_Channel_commandType" property="commandType" z="nHNlQq2TDlAIorSsOi9YSpJHiss="/>
+            <table:column id="c_com_gbd_union_domain_Channel_fee" property="fee" z="G/AZ5MSuf5Hilx8eb6h2MlsgVcc="/>
+            <table:column id="c_com_gbd_union_domain_Channel_serviceProvince" property="serviceProvince" z="j+8tsCV/21AnyMkCkE43yMGV8TA="/>
+        </table:table>
+    </page:list>
+</div>

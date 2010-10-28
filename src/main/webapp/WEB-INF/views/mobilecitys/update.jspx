@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_gbd_union_domain_MobileCity" modelAttribute="mobileCity" path="/mobilecitys" z="eD7LwjlJCUHtalq5wKODS8UptpQ=">
+        <field:input field="mobilePrefix" id="c_com_gbd_union_domain_MobileCity_mobilePrefix" required="true" validationMessageCode="field_invalid_integer" z="c7VnUffpBrG7lEDR/5mvpARGlas="/>
+        <field:select field="city" id="c_com_gbd_union_domain_MobileCity_city" itemValue="id" items="${citys}" path="/citys" required="true" z="OsTYJpyEe+eSo9pJci9/gsvLYZY="/>
+    </form:update>
+</div>

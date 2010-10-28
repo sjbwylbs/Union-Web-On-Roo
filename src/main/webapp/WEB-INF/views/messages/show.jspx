@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_gbd_union_domain_Message" object="${message}" path="/messages" z="8A5xa6TWPBQZKaG0qEuG2DVnPmQ=">
+        <field:display field="mobile" id="s_com_gbd_union_domain_Message_mobile" object="${message}" z="eGRDOSwZ0d5LDWqmL9bpXVk0EJw="/>
+        <field:display field="command" id="s_com_gbd_union_domain_Message_command" object="${message}" z="jTR/2/M8aGmYkYpiuK7+x2jTeS8="/>
+        <field:display field="spcode" id="s_com_gbd_union_domain_Message_spcode" object="${message}" z="JWWCIk1yZudNTu9Bi2FruKwMBac="/>
+        <field:display field="serviceId" id="s_com_gbd_union_domain_Message_serviceId" object="${message}" z="41Gn3YlmKKcpGnNT5PQ/Ac3xRJo="/>
+        <field:display field="linkId" id="s_com_gbd_union_domain_Message_linkId" object="${message}" z="jpu6mjxtlGPzIygOl04pol6+PpE="/>
+        <field:display date="true" dateTimePattern="${message_created_date_format}" field="created" id="s_com_gbd_union_domain_Message_created" object="${message}" z="TG9uxllRRWgE5+j1NX7382PkLwA="/>
+        <field:display date="true" dateTimePattern="${message_updated_date_format}" field="updated" id="s_com_gbd_union_domain_Message_updated" object="${message}" z="3ngTLVkcRtvS2l90sTmxUwR5oyA="/>
+        <field:display field="synStatus" id="s_com_gbd_union_domain_Message_synStatus" object="${message}" z="/x0oeQJ9el7fpF4uHQtulSA5gHk="/>
+        <field:display field="synTimes" id="s_com_gbd_union_domain_Message_synTimes" object="${message}" z="g1VTpMwwZIaAnGGeVHC9MlKYDck="/>
+        <field:display date="true" dateTimePattern="${message_syned_date_format}" field="syned" id="s_com_gbd_union_domain_Message_syned" object="${message}" z="Atrl287TFNYy/zWz7y2rD7qUZts="/>
+        <field:display field="isEnable" id="s_com_gbd_union_domain_Message_isEnable" object="${message}" z="xzJvzIvABddupUyDwHbwL2QfgmE="/>
+        <field:display field="province" id="s_com_gbd_union_domain_Message_province" object="${message}" z="UUNSoa2/SNc245Uej8BVkc5zyow="/>
+        <field:display field="city" id="s_com_gbd_union_domain_Message_city" object="${message}" z="0FSb7eHzkCfGLdZH0p1a8zxvtPs="/>
+        <field:display field="status" id="s_com_gbd_union_domain_Message_status" object="${message}" z="mV6aIN8ix7R4kSXKAKRW2O7pnmY="/>
+        <field:display field="cp" id="s_com_gbd_union_domain_Message_cp" object="${message}" z="y3V+dUmObqcrDCYXRKyOsi/6FlY="/>
+        <field:display field="sp" id="s_com_gbd_union_domain_Message_sp" object="${message}" z="GzTD9oQk/DOZoXMnLX2LCliaGQg="/>
+    </page:show>
+</div>

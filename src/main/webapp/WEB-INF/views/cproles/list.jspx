@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_gbd_union_domain_CPRole" items="${cproles}" z="yvxvywrYbdpc/Ts1F9OalCL3QpQ=">
+        <table:table data="${cproles}" id="l_com_gbd_union_domain_CPRole" path="/cproles" z="IWVUVwqecU314BIkcJmHJIaiUX0=">
+            <table:column id="c_com_gbd_union_domain_CPRole_command" property="command" z="KAobVExYElqph4Lgz6Uxtb60YTk="/>
+            <table:column id="c_com_gbd_union_domain_CPRole_url" property="url" z="8Cgm093VmhQgqir1PdpvApQtH4U="/>
+            <table:column id="c_com_gbd_union_domain_CPRole_rate" property="rate" z="VOCLXEnxx3j94BAYQdrZALAOQ70="/>
+            <table:column id="c_com_gbd_union_domain_CPRole_channel" property="channel" z="HhZXOkBfYGS81c9r7bqNVKJO8/M="/>
+            <table:column id="c_com_gbd_union_domain_CPRole_cp" property="cp" z="avOXSuLcPx+LhY4UWvZPu/LdDKQ="/>
+        </table:table>
+    </page:list>
+</div>

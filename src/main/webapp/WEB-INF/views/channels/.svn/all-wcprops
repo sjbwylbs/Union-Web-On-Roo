@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/channels
+END
+show.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/channels/show.jspx
+END
+update.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/channels/update.jspx
+END
+create.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/channels/create.jspx
+END
+findChannelsBySpcode.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/channels/findChannelsBySpcode.jspx
+END
+findChannelsByCommand.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/channels/findChannelsByCommand.jspx
+END
+views.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/channels/views.xml
+END
+list.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/channels/list.jspx
+END

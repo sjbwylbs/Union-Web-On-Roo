@@ -1,0 +1,452 @@
+project --topLevelPackage com.gbd.union --projectName UnionWebV2 --java 6
+
+persistence setup --provider HIBERNATE --database MYSQL --databaseName db_unionwebv2 --userName unionwebv2 --password 123456
+
+//-------------------------------------------------------------------
+
+//公司类型
+
+enum type --class ~.reference.CompanyType
+
+enum constant --name SP
+
+enum constant --name CP
+//通道类型
+
+enum type --class ~.reference.ChannelType
+
+enum constant --name SMS
+
+enum constant --name IVR
+//SP类型
+enum type --class ~.reference.ServiceProvider
+
+enum constant --name 移动
+
+enum constant --name 联通
+
+enum constant --name 电信
+//状态
+enum type --class ~.reference.EventStatus
+
+enum constant --name 未处理
+
+enum constant --name 已处理
+
+enum constant --name 失败
+
+enum constant --name 成功
+//指令类型
+enum type --class ~.reference.CommandType
+
+enum constant --name 精确
+
+enum constant --name 模糊
+
+//-------------------------------------------------------------------
+
+//保存公司信息(sp,cp)
+
+entity --class ~.domain.Company --identifierField id --identifierColumn id --identifierType java.lang.Integer  --table t_company --testAutomatically
+
+//联系人类型
+
+entity --class ~.domain.ContactType --identifierField id --identifierColumn id --identifierType java.lang.Integer  --table t_contacttype --testAutomatically
+
+//保存联系人信息（联系人类型分几种，用ID跟公司管理）
+
+entity --class ~.domain.Contact --identifierField id --identifierColumn id --identifierType java.lang.Integer  --table t_contact --testAutomatically
+
+//保存sp通道列表
+
+entity --class ~.domain.Channel --identifierField id --identifierColumn id --identifierType java.lang.Integer  --table t_channel --testAutomatically
+
+//保存协议参数列表parameter
+
+entity --class ~.domain.Param --identifierField id --identifierColumn id --identifierType java.lang.Integer  --table t_param --testAutomatically
+
+//保存省份信息
+
+entity --class ~.domain.Province --identifierField id --identifierColumn id --identifierType java.lang.Integer  --table t_province --testAutomatically
+
+//保存城市信息
+
+entity --class ~.domain.City --identifierField id --identifierColumn id --identifierType java.lang.Integer  --table t_city --testAutomatically
+
+//保存手机号归属地信息
+
+entity --class ~.domain.MobileCity --identifierField id --identifierColumn id --identifierType java.lang.Long  --table t_mobilecity --testAutomatically
+
+//保存上行信息
+
+entity --class ~.domain.Message --identifierField id --identifierColumn id --identifierType java.lang.Long  --table t_message --testAutomatically
+
+//保存状态报告
+
+entity --class ~.domain.StatusType --identifierField id --identifierColumn id --identifierType java.lang.Integer  --table t_statusType --testAutomatically
+//CP指令分配信息
+entity --class ~.domain.CPRole --identifierField id --identifierColumn id --identifierType java.lang.Integer  --table t_cprole --testAutomatically
+//保存资源
+entity --class ~domain.Res --identifierField id --identifierColumn id --identifierType java.lang.Integer  --table t_res --testAutomatically
+//保存用户角色
+entity --class ~.domain.Rule --identifierField id --identifierColumn id --identifierType java.lang.Integer  --table t_rule --testAutomatically
+//保存用户
+entity --class ~.domain.Person --identifierField id --identifierColumn id --identifierType java.lang.Integer  --table t_person --testAutomatically
+
+ 
+
+//-------------------------------------------------------------------
+
+//保存公司
+
+focus --class ~.domain.Company
+
+//公司名称
+
+field string name --type java.lang.String --sizeMax 30 --notNull
+
+//公司地址
+
+field string address --type java.lang.String --sizeMax 100
+
+//公司类型（SP,CP）
+
+field enum companyType --type ~.reference.CompanyType --notNull
+
+//开户人
+
+field string bankUserName --type java.lang.String --sizeMax 8
+
+//开会银行
+
+field string bankName --type java.lang.String --sizeMax 30
+
+//开户行地址（格式为**省**市**银行**分行）
+
+field string bankAddress --type java.lang.String --sizeMax 50
+
+//银行账户
+
+field string bankNumber --type java.lang.String --sizeMax 20
+
+
+//公司用户关联
+field reference person --type ~.domain.Person --notNull
+
+
+//-------------------------------------------------------------------
+
+//保存联系人类型名字
+
+focus --class ~.domain.ContactType
+
+//联系人类型名字
+
+field string name --type java.lang.String --sizeMax 20 --notNull
+
+//-------------------------------------------------------------------
+
+//保存联系人
+
+focus --class ~.domain.Contact
+
+//联系人名称
+
+field string name --type java.lang.String --sizeMax 8 --notNull
+
+//手机号码
+
+field string mobile --type java.lang.String --sizeMax 21
+
+//QQ号码
+
+field string qq --type java.lang.String --sizeMax 21
+
+//Email
+
+field string email --type java.lang.String --sizeMax 50
+
+//联系人类型(商务，技术，业务，结算,这里多对1的关系
+
+field reference contactType --type ~.domain.ContactType --notNull
+
+//联系人公司
+
+field reference company --type ~.domain.Company --notNull
+
+//-------------------------------------------------------------------
+
+//保存通道
+
+focus --class ~.domain.Channel
+
+//服务代码（1066XXXX）
+
+field string spcode --type java.lang.String --sizeMax 20 --notNull
+
+//业务代码
+field string serviceId --type java.lang.String --sizeMax 20 --notNull
+
+//指令
+
+field string command --type java.lang.String --sizeMax 100 --notNull
+
+//指令类型（精确，模糊）
+
+field enum commandType --type ~.reference.CommandType --notNull
+
+//资费（以分为单位）
+
+field number fee --type java.lang.Integer --min 10 --max 9000 --notNull
+
+//开通省份（作为描述，不处理),可以在省份列表里面查出来，然后在一个可以复选的地方让用户选择
+
+field string serviceProvince --type java.lang.String --sizeMax 500
+
+//二次确认省份（作为描述，不处理),可以在省份列表里面查出来，然后在一个可以复选的地方让用户选择
+
+field string confirmProvince --type .java.lang.String --sizeMax 500
+
+//通道类型(SMS,IVR)
+
+field enum channelType --type ~.reference.ChannelType --notNull
+
+//通道提供商(移动，联通，电信）
+
+field enum serviceProvider --type ~.reference.ServiceProvider --notNull
+
+//所属公司
+
+field reference company --type ~.domain.Company --notNull
+
+//-------------------------------------------------------------------
+
+//SP或者CP的上下行参数
+
+focus --class ~.domain.Param
+
+//手机号参数
+
+field string mobileParam --type java.lang.String --sizeMax 20 --notNull
+
+//指令参数
+
+field string commandParam --type java.lang.String --sizeMax 20 --notNull
+
+//SP端口号参数
+
+field string spcodeParam --type java.lang.String --sizeMax 20 --notNull
+
+//SP业务代码参数
+
+field string serviceIdParam --type java.lang.String --sizeMax 20 --notNull
+
+//链接ID参数
+
+field string linkIdParam --type java.lang.String --sizeMax 20 --notNull
+
+//省份参数
+
+field string provinceParam --type java.lang.String --sizeMax 20 --notNull
+
+//城市参数
+
+field string cityParam --type java.lang.String --sizeMax 20 --notNull
+
+//上行时间参数
+
+field string createdParam --type java.lang.String --sizeMax 20 --notNull
+
+//状态参数
+
+field string statusParam --type java.lang.String --sizeMax 20 --notNull
+
+//所属SP/CP公司
+
+field reference company --type ~.domain.Company --notNull
+
+//-------------------------------------------------------------------
+
+//CP指令分配
+
+focus --class ~.domain.CPRole
+//指令
+field string command --type java.lang.String --sizeMax 100 --notNull
+
+//CP同步URL
+
+field string url --type java.lang.String --sizeMax 200 --notNull
+
+//扣量百分比（100-0）
+
+field number rate --type java.lang.Integer --min 0 --max 100 --notNull
+//链接到通道
+
+field reference channel --type ~.domain.Channel --notNull
+//链接到CP(出于考虑CP有可能需要多个同步地址所以需要有多个同步地址，所以把同步的URL设置在指令分配表)
+field reference cp --type ~.domain.Company --notNull
+
+
+//-------------------------------------------------------------------
+
+//保存省份
+
+focus --class ~.domain.Province
+
+//省份名称
+
+field string name --type java.lang.String --sizeMax 20 --notNull
+
+//-------------------------------------------------------------------
+
+//保存城市
+
+focus --class ~.domain.City
+
+//城市名称
+
+field string name --type java.lang.String --sizeMax 20 --notNull
+
+//城市区号
+
+field string ZIP --type java.lang.String --sizeMax 10 --notNull
+
+//关联到省份
+
+field reference province --type ~.domain.Province --notNull
+
+//-------------------------------------------------------------------
+
+//保存手机号归属地信息
+
+focus --class ~.domain.MobileCity
+
+//手机号前缀（7位）
+
+field number mobilePrefix --type java.lang.Integer --notNull
+//链接到城市
+
+field reference city --type ~.domain.City  --notNull
+//-------------------------------------------------------------------
+
+//保存上行信息
+
+focus --class ~.domain.Message
+
+//手机号
+
+field number mobile --type java.lang.Long --min 10000000000 --max 20000000000 --notNull
+
+//指令
+
+field string command --type java.lang.String --sizeMax 100 --notNull
+
+//SP端口号
+
+field string spcode --type java.lang.String --sizeMax 20 --notNull
+
+//业务代码
+field string serviceId --type java.lang.String --sizeMax 20
+
+//链接ID
+
+field string linkId --type java.lang.String --sizeMax 20
+
+//上行时间
+
+field date created --type java.util.Date --dateFormat MEDIUM --timeFormat MEDIUM --notNull
+//更新状态时间
+
+field date updated --type java.util.Date --dateFormat MEDIUM --timeFormat MEDIUM
+
+//同步状态
+
+field enum synStatus --type ~.reference.EventStatus
+
+//同步次数
+
+field number synTimes --type java.lang.Integer --min 0 --max 10
+
+//最后一次同步时间
+
+field date syned --type java.util.Date --dateFormat MEDIUM --timeFormat MEDIUM
+
+//是否扣量
+
+field boolean isEnable --type java.lang.Boolean --notNull
+
+//省份
+
+field reference province --type ~.domain.Province
+//城市
+field reference city --type ~.domain.City
+//状态
+field reference status --type ~.domain.StatusType --notNull
+//所属SP公司
+field reference cp --type ~.domain.Company
+//所属CP公司
+field reference sp --type ~.domain.Company
+//-------------------------------------------------------------------
+//保存状态报告（DELIVRD，失败，0，or other)
+focus --class ~.domain.StatusType
+field string name --type java.lang.String --sizeMax 20 --notNull
+//-------------------------------------------------------------------
+//保存资源
+focus --class ~.domain.Res
+//资源名称
+field string name --type java.lang.String --sizeMax 20 --notNull
+//资源类型(URL
+field string res_type --type java.lang.String --sizeMax 20 --notNull
+//资源地址
+field string res_string --type java.lang.String --sizeMax 200 --notNull
+//资源级别
+field number priority --type java.lang.Integer --notNull
+//资源描述
+field string descn --type java.lang.String --sizeMax 200 --notNull
+//-------------------------------------------------------------------
+//保存角色
+focus --class ~.domain.Rule
+//角色名称
+field string name --type java.lang.String --sizeMax 20 --notNull
+//角色描述
+field string descn --type java.lang.String --sizeMax 30 --notNull
+//-------------------------------------------------------------------
+//保存用户
+focus --class ~.domain.Person
+//用户名
+field string username --type java.lang.String --sizeMax 50 --notNull
+//密码
+field string password --type java.lang.String --sizeMax 50 --notNull
+//用户状态
+field number status --type java.lang.Integer --notNull
+//用户描述
+field string descn --type java.lang.String --sizeMax 50 --notNull
+
+//-------------------------------------------------------------------
+//保存角色资源
+field set res --class ~.domain.Rule --element ~.domain.Res
+//保存角色用户
+field set person --class ~.domain.Rule --element ~.domain.Person
+
+focus --class ~.domain.Message
+finder add findMessagesByMobile
+finder add findMessagesByCreatedBetween
+finder add findMessagesBySp
+finder add findMessagesByCp
+finder add findMessagesByLinkId
+
+focus --class ~.domain.Channel
+finder add findChannelsByCommand
+finder add findChannelsBySpcode
+
+focus --class ~.domain.CPRole
+finder add findCPRolesByChannel
+
+focus --class ~.domain.StatusType
+finder add findStatusTypesByName
+ 
+
+controller all --package ~.web
+
+security setup
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_gbd_union_domain_Param" items="${params}" z="8WB1M7/feObShnVhlQqSUzX3pBk=">
+        <table:table data="${params}" id="l_com_gbd_union_domain_Param" path="/params" z="wpO9nD3j2tRbCkWK1xmH03AZYeY=">
+            <table:column id="c_com_gbd_union_domain_Param_mobileParam" property="mobileParam" z="4qEPhcyjBwTklVrYRspZlTXc91U="/>
+            <table:column id="c_com_gbd_union_domain_Param_commandParam" property="commandParam" z="PMhWvXSVo5firMG80pcTijRWiUk="/>
+            <table:column id="c_com_gbd_union_domain_Param_spcodeParam" property="spcodeParam" z="nOEYUmItsepZHbgOhtkJFXdZnsU="/>
+            <table:column id="c_com_gbd_union_domain_Param_serviceIdParam" property="serviceIdParam" z="/vpx9nmiEW+FavL5Yhi7ul4JDWE="/>
+            <table:column id="c_com_gbd_union_domain_Param_linkIdParam" property="linkIdParam" z="/RVn77qn+hvFNjV82ZYNhuyPk2I="/>
+            <table:column id="c_com_gbd_union_domain_Param_provinceParam" property="provinceParam" z="PlL1FDKhVgyW7+sPqNGtCHPCC/M="/>
+        </table:table>
+    </page:list>
+</div>

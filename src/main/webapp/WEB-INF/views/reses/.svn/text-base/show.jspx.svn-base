@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_gbd_union_domain_Res" object="${res}" path="/reses" z="jW995U5vr2eVBxOiusf7dmKpGxE=">
+        <field:display field="name" id="s_com_gbd_union_domain_Res_name" object="${res}" z="ZkmxxYxK4RM1G+fD4UIhsjFxti4="/>
+        <field:display field="res_type" id="s_com_gbd_union_domain_Res_res_type" object="${res}" z="Yko3YQdNM8yZGmLg9JlUlgrI70U="/>
+        <field:display field="res_string" id="s_com_gbd_union_domain_Res_res_string" object="${res}" z="3Xsban+0vVCTZ5jKondx6po19LI="/>
+        <field:display field="priority" id="s_com_gbd_union_domain_Res_priority" object="${res}" z="HEgVv6dPWPcWDbh5z0V0ArrigJs="/>
+        <field:display field="descn" id="s_com_gbd_union_domain_Res_descn" object="${res}" z="qFhqDq5pod+HL2qbxeTju1Wd6SU="/>
+    </page:show>
+</div>

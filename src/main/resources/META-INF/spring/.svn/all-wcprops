@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/UnionWebV2/!svn/ver/3/trunk/src/main/resources/META-INF/spring
+END
+database.properties
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/UnionWebV2/!svn/ver/3/trunk/src/main/resources/META-INF/spring/database.properties
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/resources/META-INF/spring/applicationContext.xml
+END
+applicationContext-security.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/resources/META-INF/spring/applicationContext-security.xml
+END

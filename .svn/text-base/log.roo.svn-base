@@ -1,0 +1,162 @@
+// Spring Roo 1.1.0.RC1 [rev 51cb976] log opened at 2010-10-23 01:01:15
+project --topLevelPackage com.gbd.union --projectName UnionWebV2 --java 6
+persistence setup --provider HIBERNATE --database MYSQL --databaseName db_unionwebv2 --userName unionwebv2 --password 123456
+enum type --class ~.reference.CompanyType
+enum constant --name SP
+enum constant --name CP
+enum type --class ~.reference.ChannelType
+enum constant --name SMS
+enum constant --name IVR
+enum type --class ~.reference.ServiceProvider
+enum constant --name 移动
+enum constant --name 联通
+enum constant --name 电信
+enum type --class ~.reference.EventStatus
+enum constant --name 未处理
+enum constant --name 已处理
+enum constant --name 失败
+enum constant --name 成功
+enum type --class ~.reference.CommandType
+enum constant --name 精确
+enum constant --name 模糊
+enum type --class ~.reference.IsEnable
+enum constant --name 扣量
+enum constant --name 不扣量
+entity --class ~.domain.Company --identifierField id --identifierColumn id --identifierType java.lang.Integer  --table t_company --testAutomatically
+entity --class ~.domain.ContactType --identifierField id --identifierColumn id --identifierType java.lang.Integer  --table t_contacttype --testAutomatically
+entity --class ~.domain.Contact --identifierField id --identifierColumn id --identifierType java.lang.Integer  --table t_contact --testAutomatically
+entity --class ~.domain.Channel --identifierField id --identifierColumn id --identifierType java.lang.Integer  --table t_channel --testAutomatically
+entity --class ~.domain.Param --identifierField id --identifierColumn id --identifierType java.lang.Integer  --table t_param --testAutomatically
+entity --class ~.domain.Province --identifierField id --identifierColumn id --identifierType java.lang.Integer  --table t_province --testAutomatically
+entity --class ~.domain.City --identifierField id --identifierColumn id --identifierType java.lang.Integer  --table t_city --testAutomatically
+entity --class ~.domain.MobileCity --identifierField id --identifierColumn id --identifierType java.lang.Long  --table t_mobilecity --testAutomatically
+entity --class ~.domain.Message --identifierField id --identifierColumn id --identifierType java.lang.Long  --table t_message --testAutomatically
+entity --class ~.domain.StatusType --identifierField id --identifierColumn id --identifierType java.lang.Integer  --table t_statusType --testAutomatically
+entity --class ~.domain.CPRole --identifierField id --identifierColumn id --identifierType java.lang.Integer  --table t_cprole --testAutomatically
+entity --class ~domain.Res --identifierField id --identifierColumn id --identifierType java.lang.Integer  --table t_res --testAutomatically
+entity --class ~.domain.Rule --identifierField id --identifierColumn id --identifierType java.lang.Integer  --table t_rule --testAutomatically
+entity --class ~.domain.Person --identifierField id --identifierColumn id --identifierType java.lang.Integer  --table t_person --testAutomatically
+focus --class ~.domain.Company
+field string name --type java.lang.String --sizeMax 30 --notNull
+field string address --type java.lang.String --sizeMax 100
+field enum companyType --type ~.reference.CompanyType --notNull
+field string bankUserName --type java.lang.String --sizeMax 8
+field string bankName --type java.lang.String --sizeMax 30
+field string bankAddress --type java.lang.String --sizeMax 50
+field string bankNumber --type java.lang.String --sizeMax 20
+field reference person --type ~.domain.Person --notNull
+focus --class ~.domain.ContactType
+field string name --type java.lang.String --sizeMax 20 --notNull
+focus --class ~.domain.Contact
+field string name --type java.lang.String --sizeMax 8 --notNull
+field string mobile --type java.lang.String --sizeMax 21
+field string qq --type java.lang.String --sizeMax 21
+field string email --type java.lang.String --sizeMax 50
+field reference contactType --type ~.domain.ContactType --notNull
+field reference company --type ~.domain.Company --notNull
+focus --class ~.domain.Channel
+field string spcode --type java.lang.String --sizeMax 20 --notNull
+field string serviceId --type java.lang.String --sizeMax 20 --notNull
+field string command --type java.lang.String --sizeMax 100 --notNull
+field enum commandType --type ~.reference.CommandType --notNull
+field number fee --type java.lang.Integer --min 10 --max 9000 --notNull
+field string serviceProvince --type java.lang.String --sizeMax 500
+field string confirmProvince --type .java.lang.String --sizeMax 500
+field enum channelType --type ~.reference.ChannelType --notNull
+field enum serviceProvider --type ~.reference.ServiceProvider --notNull
+field reference company --type ~.domain.Company --notNull
+focus --class ~.domain.Param
+field string mobileParam --type java.lang.String --sizeMax 20 --notNull
+field string commandParam --type java.lang.String --sizeMax 20 --notNull
+field string spcodeParam --type java.lang.String --sizeMax 20 --notNull
+field string serviceIdParam --type java.lang.String --sizeMax 20 --notNull
+field string linkIdParam --type java.lang.String --sizeMax 20 --notNull
+field string provinceParam --type java.lang.String --sizeMax 20 --notNull
+field string cityParam --type java.lang.String --sizeMax 20 --notNull
+field string createdParam --type java.lang.String --sizeMax 20 --notNull
+field string statusParam --type java.lang.String --sizeMax 20 --notNull
+field reference company --type ~.domain.Company --notNull
+focus --class ~.domain.CPRole
+field string command --type java.lang.String --sizeMax 100 --notNull
+field string url --type java.lang.String --sizeMax 200 --notNull
+field number rate --type java.lang.Integer --min 0 --max 100 --notNull
+field reference channel --type ~.domain.Channel --notNull
+field reference cp --type ~.domain.Company --notNull
+focus --class ~.domain.Province
+field string name --type java.lang.String --sizeMax 20 --notNull
+focus --class ~.domain.City
+field string name --type java.lang.String --sizeMax 20 --notNull
+field string ZIP --type java.lang.String --sizeMax 10 --notNull
+field reference province --type ~.domain.Province --notNull
+focus --class ~.domain.MobileCity
+field number mobilePrefix --type java.lang.Integer --notNull
+field reference city --type ~.domain.City  --notNull
+focus --class ~.domain.Message
+field number mobile --type java.lang.Long --min 10000000000 --max 20000000000 --notNull
+field string command --type java.lang.String --sizeMax 100 --notNull
+field string spcode --type java.lang.String --sizeMax 20 --notNull
+field string serviceId --type java.lang.String --sizeMax 20
+field string linkId --type java.lang.String --sizeMax 20
+field date created --type java.util.Date --dateFormat MEDIUM --timeFormat MEDIUM --notNull
+field date updated --type java.util.Date --dateFormat MEDIUM --timeFormat MEDIUM
+field enum synStatus --type ~.reference.EventStatus
+field number synTimes --type java.lang.Integer --min 0 --max 10
+field date syned --type java.util.Date --dateFormat MEDIUM --timeFormat MEDIUM
+field boolean isEnable --type java.lang.Boolean --notNull
+field reference province --type ~.domain.Province
+field reference city --type ~.domain.City
+field reference status --type ~.domain.StatusType --notNull
+field reference cp --type ~.domain.Company
+field reference sp --type ~.domain.Company
+focus --class ~.domain.StatusType
+field string name --type java.lang.String --sizeMax 20 --notNull
+focus --class ~.domain.Res
+field string name --type java.lang.String --sizeMax 20 --notNull
+field string res_type --type java.lang.String --sizeMax 20 --notNull
+field string res_string --type java.lang.String --sizeMax 200 --notNull
+field number priority --type java.lang.Integer --notNull
+field string descn --type java.lang.String --sizeMax 200 --notNull
+focus --class ~.domain.Rule
+field string name --type java.lang.String --sizeMax 20 --notNull
+field string descn --type java.lang.String --sizeMax 30 --notNull
+focus --class ~.domain.Person
+field string username --type java.lang.String --sizeMax 50 --notNull
+field string password --type java.lang.String --sizeMax 50 --notNull
+field number status --type java.lang.Integer --notNull
+field string descn --type java.lang.String --sizeMax 50 --notNull
+field set res --class ~.domain.Rule --element ~.domain.Res
+field set person --class ~.domain.Rule --element ~.domain.Person
+focus --class ~.domain.Message
+finder add findMessagesByMobile
+finder add findMessagesByCreatedBetween
+finder add findMessagesBySp
+finder add findMessagesByCp
+finder add findMessagesByLinkId
+focus --class ~.domain.Channel
+finder add findChannelsByCommand
+finder add findChannelsBySpcode
+focus --class ~.domain.CPRole
+finder add findCPRolesByChannel
+focus --class ~.domain.StatusType
+finder add findStatusTypesByName
+controller all --package ~.web
+security setup
+// script --file script.roo
+perform eclipse
+// Spring Roo 1.1.0.RC1 [rev 51cb976] log opened at 2010-10-23 01:30:00
+// Spring Roo 1.1.0.RC1 [rev 51cb976] log closed at 2010-10-23 01:37:19
+exit
+// Spring Roo 1.1.0.RC1 [rev 51cb976] log closed at 2010-10-23 02:31:52
+// Spring Roo 1.1.0.RC1 [rev 51cb976] log opened at 2010-10-23 23:41:51
+// Spring Roo 1.1.0.RC1 [rev 51cb976] log closed at 2010-10-24 00:32:22
+// Spring Roo 1.1.0.RELEASE [rev 793f2b0] log opened at 2010-10-29 02:11:47
+focus --class ~.domain.Province
+finder list
+finder list --depth 2
+finder add findProvincesByNameLike
+focus --class ~.domain.City
+// [failed] finder add findCityByNameLike
+finder list 
+// [failed] finder add findCitysByNameLike
+finder list --depth 2
+finder add findCitysByNameLikeAndProvince

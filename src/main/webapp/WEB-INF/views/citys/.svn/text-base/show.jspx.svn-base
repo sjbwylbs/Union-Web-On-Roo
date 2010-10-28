@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_gbd_union_domain_City" object="${city}" path="/citys" z="YktVqL1Tl2/aTRSJfMtu1ADufBI=">
+        <field:display field="name" id="s_com_gbd_union_domain_City_name" object="${city}" z="mf+xD9cSz9zAB2lF6jr/wcL7J6Y="/>
+        <field:display field="ZIP" id="s_com_gbd_union_domain_City_ZIP" object="${city}" z="sjKVlIZGE0hqUgjuedMBvmj3ZUk="/>
+        <field:display field="province" id="s_com_gbd_union_domain_City_province" object="${city}" z="L9K+cryWYBTLludR2De1IHMGvYI="/>
+    </page:show>
+</div>

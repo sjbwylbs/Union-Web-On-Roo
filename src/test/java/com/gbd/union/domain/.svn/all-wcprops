@@ -1,0 +1,509 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain
+END
+ChannelDataOnDemand_Roo_DataOnDemand.aj
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/UnionWebV2/!svn/ver/4/trunk/src/test/java/com/gbd/union/domain/ChannelDataOnDemand_Roo_DataOnDemand.aj
+END
+ProvinceIntegrationTest_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ProvinceIntegrationTest_Roo_Configurable.aj
+END
+PersonIntegrationTest_Roo_IntegrationTest.aj
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/PersonIntegrationTest_Roo_IntegrationTest.aj
+END
+RuleIntegrationTest_Roo_IntegrationTest.aj
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/RuleIntegrationTest_Roo_IntegrationTest.aj
+END
+PersonDataOnDemand.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/PersonDataOnDemand.java
+END
+ChannelIntegrationTest_Roo_IntegrationTest.aj
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ChannelIntegrationTest_Roo_IntegrationTest.aj
+END
+ContactTypeIntegrationTest_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ContactTypeIntegrationTest_Roo_Configurable.aj
+END
+MessageDataOnDemand_Roo_DataOnDemand.aj
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/UnionWebV2/!svn/ver/4/trunk/src/test/java/com/gbd/union/domain/MessageDataOnDemand_Roo_DataOnDemand.aj
+END
+ProvinceDataOnDemand_Roo_DataOnDemand.aj
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/UnionWebV2/!svn/ver/4/trunk/src/test/java/com/gbd/union/domain/ProvinceDataOnDemand_Roo_DataOnDemand.aj
+END
+MessageIntegrationTest_Roo_IntegrationTest.aj
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/MessageIntegrationTest_Roo_IntegrationTest.aj
+END
+ChannelIntegrationTest_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ChannelIntegrationTest_Roo_Configurable.aj
+END
+ContactTypeDataOnDemand_Roo_DataOnDemand.aj
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/UnionWebV2/!svn/ver/4/trunk/src/test/java/com/gbd/union/domain/ContactTypeDataOnDemand_Roo_DataOnDemand.aj
+END
+MobileCityDataOnDemand_Roo_DataOnDemand.aj
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/UnionWebV2/!svn/ver/4/trunk/src/test/java/com/gbd/union/domain/MobileCityDataOnDemand_Roo_DataOnDemand.aj
+END
+ParamDataOnDemand_Roo_DataOnDemand.aj
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/UnionWebV2/!svn/ver/4/trunk/src/test/java/com/gbd/union/domain/ParamDataOnDemand_Roo_DataOnDemand.aj
+END
+StatusTypeIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/StatusTypeIntegrationTest.java
+END
+CompanyDataOnDemand_Roo_DataOnDemand.aj
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/UnionWebV2/!svn/ver/4/trunk/src/test/java/com/gbd/union/domain/CompanyDataOnDemand_Roo_DataOnDemand.aj
+END
+ResIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ResIntegrationTest.java
+END
+StatusTypeDataOnDemand_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/StatusTypeDataOnDemand_Roo_Configurable.aj
+END
+ParamIntegrationTest_Roo_IntegrationTest.aj
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ParamIntegrationTest_Roo_IntegrationTest.aj
+END
+MobileCityIntegrationTest_Roo_IntegrationTest.aj
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/MobileCityIntegrationTest_Roo_IntegrationTest.aj
+END
+CityDataOnDemand_Roo_DataOnDemand.aj
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/UnionWebV2/!svn/ver/4/trunk/src/test/java/com/gbd/union/domain/CityDataOnDemand_Roo_DataOnDemand.aj
+END
+MessageIntegrationTest_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/MessageIntegrationTest_Roo_Configurable.aj
+END
+ResDataOnDemand_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ResDataOnDemand_Roo_Configurable.aj
+END
+CompanyIntegrationTest_Roo_IntegrationTest.aj
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/CompanyIntegrationTest_Roo_IntegrationTest.aj
+END
+CompanyDataOnDemand.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/CompanyDataOnDemand.java
+END
+CityIntegrationTest_Roo_IntegrationTest.aj
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/CityIntegrationTest_Roo_IntegrationTest.aj
+END
+PersonIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/PersonIntegrationTest.java
+END
+CPRoleDataOnDemand_Roo_DataOnDemand.aj
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/UnionWebV2/!svn/ver/4/trunk/src/test/java/com/gbd/union/domain/CPRoleDataOnDemand_Roo_DataOnDemand.aj
+END
+ParamIntegrationTest_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ParamIntegrationTest_Roo_Configurable.aj
+END
+MobileCityIntegrationTest_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/MobileCityIntegrationTest_Roo_Configurable.aj
+END
+ChannelIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ChannelIntegrationTest.java
+END
+PersonDataOnDemand_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/PersonDataOnDemand_Roo_Configurable.aj
+END
+ChannelDataOnDemand_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ChannelDataOnDemand_Roo_Configurable.aj
+END
+ContactDataOnDemand_Roo_DataOnDemand.aj
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/UnionWebV2/!svn/ver/4/trunk/src/test/java/com/gbd/union/domain/ContactDataOnDemand_Roo_DataOnDemand.aj
+END
+CPRoleIntegrationTest_Roo_IntegrationTest.aj
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/CPRoleIntegrationTest_Roo_IntegrationTest.aj
+END
+StatusTypeIntegrationTest_Roo_IntegrationTest.aj
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/StatusTypeIntegrationTest_Roo_IntegrationTest.aj
+END
+CityIntegrationTest_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/CityIntegrationTest_Roo_Configurable.aj
+END
+ResIntegrationTest_Roo_IntegrationTest.aj
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ResIntegrationTest_Roo_IntegrationTest.aj
+END
+MessageIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/MessageIntegrationTest.java
+END
+ProvinceIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ProvinceIntegrationTest.java
+END
+MessageDataOnDemand_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/MessageDataOnDemand_Roo_Configurable.aj
+END
+ProvinceDataOnDemand_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ProvinceDataOnDemand_Roo_Configurable.aj
+END
+RuleDataOnDemand_Roo_DataOnDemand.aj
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/UnionWebV2/!svn/ver/4/trunk/src/test/java/com/gbd/union/domain/RuleDataOnDemand_Roo_DataOnDemand.aj
+END
+CPRoleIntegrationTest_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/CPRoleIntegrationTest_Roo_Configurable.aj
+END
+ContactTypeIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ContactTypeIntegrationTest.java
+END
+MobileCityIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/MobileCityIntegrationTest.java
+END
+ParamIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ParamIntegrationTest.java
+END
+ContactTypeDataOnDemand_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ContactTypeDataOnDemand_Roo_Configurable.aj
+END
+ChannelDataOnDemand.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ChannelDataOnDemand.java
+END
+MobileCityDataOnDemand_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/MobileCityDataOnDemand_Roo_Configurable.aj
+END
+ParamDataOnDemand_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ParamDataOnDemand_Roo_Configurable.aj
+END
+CompanyIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/CompanyIntegrationTest.java
+END
+CityIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/CityIntegrationTest.java
+END
+CompanyDataOnDemand_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/CompanyDataOnDemand_Roo_Configurable.aj
+END
+CityDataOnDemand_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/CityDataOnDemand_Roo_Configurable.aj
+END
+PersonIntegrationTest_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/PersonIntegrationTest_Roo_Configurable.aj
+END
+ProvinceIntegrationTest_Roo_IntegrationTest.aj
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ProvinceIntegrationTest_Roo_IntegrationTest.aj
+END
+MessageDataOnDemand.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/MessageDataOnDemand.java
+END
+StatusTypeDataOnDemand.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/StatusTypeDataOnDemand.java
+END
+CPRoleIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/CPRoleIntegrationTest.java
+END
+ResDataOnDemand.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ResDataOnDemand.java
+END
+ContactDataOnDemand.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ContactDataOnDemand.java
+END
+ContactTypeIntegrationTest_Roo_IntegrationTest.aj
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ContactTypeIntegrationTest_Roo_IntegrationTest.aj
+END
+CPRoleDataOnDemand_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/CPRoleDataOnDemand_Roo_Configurable.aj
+END
+ContactIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ContactIntegrationTest.java
+END
+ParamDataOnDemand.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ParamDataOnDemand.java
+END
+MobileCityDataOnDemand.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/MobileCityDataOnDemand.java
+END
+StatusTypeIntegrationTest_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/StatusTypeIntegrationTest_Roo_Configurable.aj
+END
+ContactDataOnDemand_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ContactDataOnDemand_Roo_Configurable.aj
+END
+ResIntegrationTest_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ResIntegrationTest_Roo_Configurable.aj
+END
+ContactIntegrationTest_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ContactIntegrationTest_Roo_Configurable.aj
+END
+RuleDataOnDemand.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/RuleDataOnDemand.java
+END
+CityDataOnDemand.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/CityDataOnDemand.java
+END
+RuleIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/RuleIntegrationTest.java
+END
+StatusTypeDataOnDemand_Roo_DataOnDemand.aj
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/UnionWebV2/!svn/ver/4/trunk/src/test/java/com/gbd/union/domain/StatusTypeDataOnDemand_Roo_DataOnDemand.aj
+END
+RuleDataOnDemand_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/RuleDataOnDemand_Roo_Configurable.aj
+END
+ResDataOnDemand_Roo_DataOnDemand.aj
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/UnionWebV2/!svn/ver/4/trunk/src/test/java/com/gbd/union/domain/ResDataOnDemand_Roo_DataOnDemand.aj
+END
+CompanyIntegrationTest_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/CompanyIntegrationTest_Roo_Configurable.aj
+END
+RuleIntegrationTest_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/RuleIntegrationTest_Roo_Configurable.aj
+END
+CPRoleDataOnDemand.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/CPRoleDataOnDemand.java
+END
+ProvinceDataOnDemand.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ProvinceDataOnDemand.java
+END
+ContactIntegrationTest_Roo_IntegrationTest.aj
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ContactIntegrationTest_Roo_IntegrationTest.aj
+END
+PersonDataOnDemand_Roo_DataOnDemand.aj
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/UnionWebV2/!svn/ver/4/trunk/src/test/java/com/gbd/union/domain/PersonDataOnDemand_Roo_DataOnDemand.aj
+END
+ContactTypeDataOnDemand.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/UnionWebV2/!svn/ver/2/trunk/src/test/java/com/gbd/union/domain/ContactTypeDataOnDemand.java
+END

@@ -1,0 +1,461 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain
+END
+CPRole_Roo_JavaBean.aj
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/CPRole_Roo_JavaBean.aj
+END
+Province_Roo_Finder.aj
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/UnionWebV2/!svn/ver/4/trunk/src/main/java/com/gbd/union/domain/Province_Roo_Finder.aj
+END
+ContactType_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/ContactType_Roo_Configurable.aj
+END
+CPRole_Roo_ToString.aj
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/CPRole_Roo_ToString.aj
+END
+Channel.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Channel.java
+END
+Message_Roo_Entity.aj
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Message_Roo_Entity.aj
+END
+MobileCity_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/MobileCity_Roo_Configurable.aj
+END
+Param_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Param_Roo_Configurable.aj
+END
+Contact_Roo_JavaBean.aj
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Contact_Roo_JavaBean.aj
+END
+Contact_Roo_ToString.aj
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Contact_Roo_ToString.aj
+END
+Company_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Company_Roo_Configurable.aj
+END
+City_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/City_Roo_Configurable.aj
+END
+Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Message.java
+END
+MobileCity_Roo_Entity.aj
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/MobileCity_Roo_Entity.aj
+END
+Param_Roo_Entity.aj
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Param_Roo_Entity.aj
+END
+StatusType.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/StatusType.java
+END
+Rule_Roo_JavaBean.aj
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Rule_Roo_JavaBean.aj
+END
+Rule_Roo_ToString.aj
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Rule_Roo_ToString.aj
+END
+Res.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Res.java
+END
+Company_Roo_Entity.aj
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Company_Roo_Entity.aj
+END
+Contact.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Contact.java
+END
+City_Roo_Entity.aj
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/City_Roo_Entity.aj
+END
+CPRole_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/CPRole_Roo_Configurable.aj
+END
+Param.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Param.java
+END
+MobileCity.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/MobileCity.java
+END
+Contact_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Contact_Roo_Configurable.aj
+END
+Rule.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Rule.java
+END
+City.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/UnionWebV2/!svn/ver/4/trunk/src/main/java/com/gbd/union/domain/City.java
+END
+CPRole_Roo_Entity.aj
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/CPRole_Roo_Entity.aj
+END
+StatusType_Roo_Entity.aj
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/StatusType_Roo_Entity.aj
+END
+Res_Roo_Entity.aj
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Res_Roo_Entity.aj
+END
+Rule_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Rule_Roo_Configurable.aj
+END
+CPRole.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/CPRole.java
+END
+Province.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/UnionWebV2/!svn/ver/4/trunk/src/main/java/com/gbd/union/domain/Province.java
+END
+Channel_Roo_Finder.aj
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Channel_Roo_Finder.aj
+END
+ContactType.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/ContactType.java
+END
+Message_Roo_Finder.aj
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Message_Roo_Finder.aj
+END
+StatusType_Roo_JavaBean.aj
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/StatusType_Roo_JavaBean.aj
+END
+StatusType_Roo_ToString.aj
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/StatusType_Roo_ToString.aj
+END
+Person.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Person.java
+END
+Res_Roo_JavaBean.aj
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Res_Roo_JavaBean.aj
+END
+Province_Roo_Entity.aj
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Province_Roo_Entity.aj
+END
+Res_Roo_ToString.aj
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Res_Roo_ToString.aj
+END
+ContactType_Roo_Entity.aj
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/ContactType_Roo_Entity.aj
+END
+Person_Roo_JavaBean.aj
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Person_Roo_JavaBean.aj
+END
+Channel_Roo_JavaBean.aj
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Channel_Roo_JavaBean.aj
+END
+Person_Roo_ToString.aj
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Person_Roo_ToString.aj
+END
+City_Roo_Finder.aj
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/UnionWebV2/!svn/ver/4/trunk/src/main/java/com/gbd/union/domain/City_Roo_Finder.aj
+END
+Channel_Roo_ToString.aj
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Channel_Roo_ToString.aj
+END
+StatusType_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/StatusType_Roo_Configurable.aj
+END
+Res_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Res_Roo_Configurable.aj
+END
+CPRole_Roo_Finder.aj
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/CPRole_Roo_Finder.aj
+END
+Message_Roo_JavaBean.aj
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Message_Roo_JavaBean.aj
+END
+StatusType_Roo_Finder.aj
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/StatusType_Roo_Finder.aj
+END
+Province_Roo_JavaBean.aj
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Province_Roo_JavaBean.aj
+END
+Message_Roo_ToString.aj
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Message_Roo_ToString.aj
+END
+Company.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Company.java
+END
+Province_Roo_ToString.aj
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Province_Roo_ToString.aj
+END
+ContactType_Roo_JavaBean.aj
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/ContactType_Roo_JavaBean.aj
+END
+ContactType_Roo_ToString.aj
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/ContactType_Roo_ToString.aj
+END
+Person_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Person_Roo_Configurable.aj
+END
+Contact_Roo_Entity.aj
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Contact_Roo_Entity.aj
+END
+MobileCity_Roo_JavaBean.aj
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/MobileCity_Roo_JavaBean.aj
+END
+Param_Roo_JavaBean.aj
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Param_Roo_JavaBean.aj
+END
+Channel_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Channel_Roo_Configurable.aj
+END
+Param_Roo_ToString.aj
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Param_Roo_ToString.aj
+END
+MobileCity_Roo_ToString.aj
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/MobileCity_Roo_ToString.aj
+END
+Company_Roo_JavaBean.aj
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Company_Roo_JavaBean.aj
+END
+City_Roo_JavaBean.aj
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/City_Roo_JavaBean.aj
+END
+Company_Roo_ToString.aj
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Company_Roo_ToString.aj
+END
+City_Roo_ToString.aj
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/City_Roo_ToString.aj
+END
+Person_Roo_Entity.aj
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Person_Roo_Entity.aj
+END
+Rule_Roo_Entity.aj
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Rule_Roo_Entity.aj
+END
+Message_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Message_Roo_Configurable.aj
+END
+Channel_Roo_Entity.aj
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Channel_Roo_Entity.aj
+END
+Province_Roo_Configurable.aj
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/domain/Province_Roo_Configurable.aj
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/tags/menu
+END
+category.tagx
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/tags/menu/category.tagx
+END
+item.tagx
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/tags/menu/item.tagx
+END
+menu.tagx
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/tags/menu/menu.tagx
+END

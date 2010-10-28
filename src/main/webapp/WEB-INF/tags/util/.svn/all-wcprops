@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/tags/util
+END
+panel.tagx
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/tags/util/panel.tagx
+END
+placeholder.tagx
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/tags/util/placeholder.tagx
+END
+theme.tagx
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/tags/util/theme.tagx
+END
+language.tagx
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/tags/util/language.tagx
+END
+load-scripts.tagx
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/tags/util/load-scripts.tagx
+END
+pagination.tagx
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/tags/util/pagination.tagx
+END

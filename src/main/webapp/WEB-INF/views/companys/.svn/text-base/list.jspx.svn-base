@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_gbd_union_domain_Company" items="${companys}" z="T6WLnoOzr3K3WJ3HEB9hMI2fpMI=">
+        <table:table data="${companys}" id="l_com_gbd_union_domain_Company" path="/companys" z="cCWt0IdiCkILB+czCe0iB+K4T8c=">
+            <table:column id="c_com_gbd_union_domain_Company_name" property="name" z="ycRKvPkYSPU9Cidvoa7rkV4oEhE="/>
+            <table:column id="c_com_gbd_union_domain_Company_address" property="address" z="IH8qNV3ISb99R2JD5mjVb/mp0RA="/>
+            <table:column id="c_com_gbd_union_domain_Company_companyType" property="companyType" z="Wz6mUZ9tmpDN+YghBWpXmVMNGTU="/>
+            <table:column id="c_com_gbd_union_domain_Company_bankUserName" property="bankUserName" z="qYOq6hROzxeEH8ARWwHCHFzE2CA="/>
+            <table:column id="c_com_gbd_union_domain_Company_bankName" property="bankName" z="++63JabZhWMw9lSGK1dnmKZHkag="/>
+            <table:column id="c_com_gbd_union_domain_Company_bankAddress" property="bankAddress" z="+dzeAGYVs2NKNE3/dkz8VGPkivA="/>
+        </table:table>
+    </page:list>
+</div>

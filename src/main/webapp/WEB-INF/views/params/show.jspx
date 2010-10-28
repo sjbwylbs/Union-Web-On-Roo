@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_gbd_union_domain_Param" object="${param}" path="/params" z="wzAjUcZUxWsOBfRIe/v7RC2uBTk=">
+        <field:display field="mobileParam" id="s_com_gbd_union_domain_Param_mobileParam" object="${param}" z="bst8/82SEkplIRIsGKhtMyqrq0I="/>
+        <field:display field="commandParam" id="s_com_gbd_union_domain_Param_commandParam" object="${param}" z="eXj3naWQVMVqtRH4S7OOAnDMcXs="/>
+        <field:display field="spcodeParam" id="s_com_gbd_union_domain_Param_spcodeParam" object="${param}" z="1LsjjxA0DIMhWcKGUbLxU8dYAAw="/>
+        <field:display field="serviceIdParam" id="s_com_gbd_union_domain_Param_serviceIdParam" object="${param}" z="9PFfxHV/1MHOWordzn8TO6jiGJI="/>
+        <field:display field="linkIdParam" id="s_com_gbd_union_domain_Param_linkIdParam" object="${param}" z="bVe5V9MaItbaFNBFGdfnv08zsdE="/>
+        <field:display field="provinceParam" id="s_com_gbd_union_domain_Param_provinceParam" object="${param}" z="Uosg56MFGtSZ0ecpr3Y6dv45CkQ="/>
+        <field:display field="cityParam" id="s_com_gbd_union_domain_Param_cityParam" object="${param}" z="a+L4cgSJSXjeuYelRkXjEDq3bKw="/>
+        <field:display field="createdParam" id="s_com_gbd_union_domain_Param_createdParam" object="${param}" z="cYxH6RqRaqmlK6f5i33RWyYUvEo="/>
+        <field:display field="statusParam" id="s_com_gbd_union_domain_Param_statusParam" object="${param}" z="nQCN8qpwq4SNPVnri3ORr6hxBe4="/>
+        <field:display field="company" id="s_com_gbd_union_domain_Param_company" object="${param}" z="PW7/RcJc2IR778x3gthrunkjtwo="/>
+    </page:show>
+</div>

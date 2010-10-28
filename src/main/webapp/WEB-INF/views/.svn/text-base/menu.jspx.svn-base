@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+	<jsp:output omit-xml-declaration="yes"/>
+
+<menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_rule" z="gB87AXy+td0IWln2752F47lJrrY=">
+            <menu:item id="i_rule_new" messageCode="global_menu_new" url="/rules?form" z="LMuBF7YOv5OcdWZyjXqfRLm084o="/>
+        <menu:item id="i_rule_list" messageCode="global_menu_list" url="/rules?page=${empty param.page ? 1 : param.page}&amp;size=${empty param.size ? 10 : param.size}" z="6HjjwVl5IaZZfp3osHO8MW3VcuI="/>
+        </menu:category>
+    <menu:category id="c_channel" z="6V8C71HWZanJxQgQCLbL3y1UooQ=">
+            <menu:item id="i_channel_new" messageCode="global_menu_new" url="/channels?form" z="zZXA8u2bPMOUjB/F0vxjLQDgSZk="/>
+        <menu:item id="i_channel_list" messageCode="global_menu_list" url="/channels?page=${empty param.page ? 1 : param.page}&amp;size=${empty param.size ? 10 : param.size}" z="p4zEES2bZXTswii39x3YqqOF4os="/>
+        <menu:item id="fi_channel_command" messageCode="global_menu_find" url="/channels?find=ByCommand&amp;form" z="fUe0cHf1JFFFiW8bOzoymUuklgQ="/>
+        <menu:item id="fi_channel_spcode" messageCode="global_menu_find" url="/channels?find=BySpcode&amp;form" z="cFfqjjtcAALg4psRwHTvIwBp8NQ="/>
+        </menu:category>
+    <menu:category id="c_person" z="Cz66KzcF6GdyygpbYfiE+EkFFFA=">
+            <menu:item id="i_person_new" messageCode="global_menu_new" url="/people?form" z="IlD8NFD64X8egaRrgHbQeWKT68I="/>
+        <menu:item id="i_person_list" messageCode="global_menu_list" url="/people?page=${empty param.page ? 1 : param.page}&amp;size=${empty param.size ? 10 : param.size}" z="JtA++hSeGIGfpQ4LCxTKVqFrw4c="/>
+        </menu:category>
+    <menu:category id="c_company" z="tmJjNcrRZwdZqruFqwG+TB5GMek=">
+            <menu:item id="i_company_new" messageCode="global_menu_new" url="/companys?form" z="SWjXbZ96+4L3yJZ+Q7yyqEFQPV4="/>
+        <menu:item id="i_company_list" messageCode="global_menu_list" url="/companys?page=${empty param.page ? 1 : param.page}&amp;size=${empty param.size ? 10 : param.size}" z="KBi2UXUGEQekBum4LE1bmmG+7j4="/>
+        </menu:category>
+    <menu:category id="c_cprole" z="ixe0FVMhwo/ImNz2+ozYmBDwyTw=">
+            <menu:item id="i_cprole_new" messageCode="global_menu_new" url="/cproles?form" z="VLcMa/wMJmJGD34qDLtvQnLuIng="/>
+        <menu:item id="i_cprole_list" messageCode="global_menu_list" url="/cproles?page=${empty param.page ? 1 : param.page}&amp;size=${empty param.size ? 10 : param.size}" z="4DlO+ndPNGb9pwzwqgLpTHQq0mU="/>
+        <menu:item id="fi_cprole_channel" messageCode="global_menu_find" url="/cproles?find=ByChannel&amp;form" z="o4G2ejJAwDL9dW2He7/S/lk1MYU="/>
+        </menu:category>
+    <menu:category id="c_param" z="zWq6W+gDrJI4jNllHKl2MLmN7aw=">
+            <menu:item id="i_param_new" messageCode="global_menu_new" url="/params?form" z="/Mix+W4C35ReTse5ZxV/tu8FyTY="/>
+        <menu:item id="i_param_list" messageCode="global_menu_list" url="/params?page=${empty param.page ? 1 : param.page}&amp;size=${empty param.size ? 10 : param.size}" z="ZpQAldE9xa+Gx8wKp+WozxT8OlA="/>
+        </menu:category>
+    <menu:category id="c_contact" z="Mum4Pow72SFjHtkf2OLMqQutcOg=">
+            <menu:item id="i_contact_new" messageCode="global_menu_new" url="/contacts?form" z="lwRv41keqcpEkNgDi/vzZp8BfAw="/>
+        <menu:item id="i_contact_list" messageCode="global_menu_list" url="/contacts?page=${empty param.page ? 1 : param.page}&amp;size=${empty param.size ? 10 : param.size}" z="U+9O4RzrpWUIRgRKHhnrP2n7rBc="/>
+        </menu:category>
+    <menu:category id="c_statustype" z="IQcX2YLYkDjJGTEwgFIElGwOAks=">
+            <menu:item id="i_statustype_new" messageCode="global_menu_new" url="/statustypes?form" z="gWokZ5g1xFHb4GSBDPZ2UyXSOz8="/>
+        <menu:item id="i_statustype_list" messageCode="global_menu_list" url="/statustypes?page=${empty param.page ? 1 : param.page}&amp;size=${empty param.size ? 10 : param.size}" z="gn6bZomj5p+k6x9jKrea1U6FJ6I="/>
+        <menu:item id="fi_statustype_name" messageCode="global_menu_find" url="/statustypes?find=ByName&amp;form" z="N+lKe/oWh0Vudsvjd530hIB3I8U="/>
+        </menu:category>
+    <menu:category id="c_res" z="jnHaheyecWPCq8bc4zjzjlqApxw=">
+            <menu:item id="i_res_new" messageCode="global_menu_new" url="/reses?form" z="YCtGBjj9qrDazbxRunfD6MN5Hkk="/>
+        <menu:item id="i_res_list" messageCode="global_menu_list" url="/reses?page=${empty param.page ? 1 : param.page}&amp;size=${empty param.size ? 10 : param.size}" z="apQVRUt60/4tOGYwyexC0q/TMBQ="/>
+        </menu:category>
+    <menu:category id="c_contacttype" z="3KPlU8D7aZGoDkMFWPtGDUn87jM=">
+            <menu:item id="i_contacttype_new" messageCode="global_menu_new" url="/contacttypes?form" z="CuwAvSEaYqWkwtfzAjWtRGcAE94="/>
+        <menu:item id="i_contacttype_list" messageCode="global_menu_list" url="/contacttypes?page=${empty param.page ? 1 : param.page}&amp;size=${empty param.size ? 10 : param.size}" z="pMz+EwzOigVWIbETkiEA0+O7hC0="/>
+        </menu:category>
+    <menu:category id="c_mobilecity" z="w+PD1b+Na7JZrO6dLMZApS4nrhw=">
+            <menu:item id="i_mobilecity_new" messageCode="global_menu_new" url="/mobilecitys?form" z="6fA2RZyBOHPwfufIW3M3tBBLEgg="/>
+        <menu:item id="i_mobilecity_list" messageCode="global_menu_list" url="/mobilecitys?page=${empty param.page ? 1 : param.page}&amp;size=${empty param.size ? 10 : param.size}" z="27KtlS6+qwpKoFvLX+vQDYyBvzM="/>
+        </menu:category>
+    <menu:category id="c_province" z="ZQTS8IySKcYbNzmSOWmPDuCzlPU=">
+            <menu:item id="i_province_new" messageCode="global_menu_new" url="/provinces?form" z="tQd5zZ0Vd7mRtDwnU8dcyQYNVcs="/>
+        <menu:item id="i_province_list" messageCode="global_menu_list" url="/provinces?page=${empty param.page ? 1 : param.page}&amp;size=${empty param.size ? 10 : param.size}" z="eyyJavqTedYsUUVIqAG9wQ53Eu0="/>
+        </menu:category>
+    <menu:category id="c_city" z="4hVKAkWoLVM4Da06LymSga9Sizg=">
+            <menu:item id="i_city_new" messageCode="global_menu_new" url="/citys?form" z="dbfrmJjWGvOtF7e23trrw/vQnRE="/>
+        <menu:item id="i_city_list" messageCode="global_menu_list" url="/citys?page=${empty param.page ? 1 : param.page}&amp;size=${empty param.size ? 10 : param.size}" z="ubxsruXC3ucBpa0pOj8RwkOWbzk="/>
+        <menu:item id="fi_city_namelikeandprovince" messageCode="global_menu_find" url="/citys?find=ByNameLikeAndProvince&amp;form" z="V7r4Linx44unAtXg6AnoIjdZDE4="/>
+        </menu:category>
+    <menu:category id="c_message" z="2mg8OfqheWP/rnVu0slpEU516Yk=">
+            <menu:item id="i_message_new" messageCode="global_menu_new" url="/messages?form" z="6ME+t1wCXxIe0ueapV28lZ5YUi0="/>
+        <menu:item id="i_message_list" messageCode="global_menu_list" url="/messages?page=${empty param.page ? 1 : param.page}&amp;size=${empty param.size ? 10 : param.size}" z="JAu4q4JOtNFZAx1mBZfQWPTgxmI="/>
+        <menu:item id="fi_message_mobile" messageCode="global_menu_find" url="/messages?find=ByMobile&amp;form" z="W0m89uKi834e/w6Cj9/gcFcl6d4="/>
+        <menu:item id="fi_message_createdbetween" messageCode="global_menu_find" url="/messages?find=ByCreatedBetween&amp;form" z="ZNNwrVwLlkRJOhN6r5qzaPpS3io="/>
+        <menu:item id="fi_message_sp" messageCode="global_menu_find" url="/messages?find=BySp&amp;form" z="5+fQuYqH/nd2eAKPXvYkdwTtCHU="/>
+        <menu:item id="fi_message_cp" messageCode="global_menu_find" url="/messages?find=ByCp&amp;form" z="Pil/fim5HqNyrnMHbLP4sCdm7Dg="/>
+        <menu:item id="fi_message_linkid" messageCode="global_menu_find" url="/messages?find=ByLinkId&amp;form" z="Z3sUlwUYYkM0l7+1uGuJCE5QCfc="/>
+        </menu:category>
+    </menu:menu>
+</div>

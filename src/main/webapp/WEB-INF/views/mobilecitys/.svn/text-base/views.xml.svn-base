@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="mobilecitys/list">
+        <put-attribute name="body" value="/WEB-INF/views/mobilecitys/list.jspx"/>
+    </definition>
+<definition extends="default" name="mobilecitys/show">
+        <put-attribute name="body" value="/WEB-INF/views/mobilecitys/show.jspx"/>
+    </definition>
+<definition extends="default" name="mobilecitys/create">
+        <put-attribute name="body" value="/WEB-INF/views/mobilecitys/create.jspx"/>
+    </definition>
+<definition extends="default" name="mobilecitys/update">
+        <put-attribute name="body" value="/WEB-INF/views/mobilecitys/update.jspx"/>
+    </definition>
+</tiles-definitions>

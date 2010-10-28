@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_gbd_union_domain_MobileCity" object="${mobilecity}" path="/mobilecitys" z="JxG6G89xT3Qi9YrVyJ27uc39EVI=">
+        <field:display field="mobilePrefix" id="s_com_gbd_union_domain_MobileCity_mobilePrefix" object="${mobilecity}" z="5pK4XjyWkGPZGrqWj0wEmR/BF0s="/>
+        <field:display field="city" id="s_com_gbd_union_domain_MobileCity_city" object="${mobilecity}" z="4H4sHo6gfFnAwkZ67dgdnmoANFQ="/>
+    </page:show>
+</div>

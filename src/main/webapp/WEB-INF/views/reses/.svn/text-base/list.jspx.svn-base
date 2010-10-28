@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_gbd_union_domain_Res" items="${reses}" z="EISVWSFXsYqM0S4JR9/UZgs6AwU=">
+        <table:table data="${reses}" id="l_com_gbd_union_domain_Res" path="/reses" z="YQLIPALaMhgD75jTBqUL1RZJ+zg=">
+            <table:column id="c_com_gbd_union_domain_Res_name" property="name" z="Gyoq3DEFujz5RxOndb4PCPX5feE="/>
+            <table:column id="c_com_gbd_union_domain_Res_res_type" property="res_type" z="5+wpOsgR34xoQ1Y7rpg5A2+uTpA="/>
+            <table:column id="c_com_gbd_union_domain_Res_res_string" property="res_string" z="FYTI/sWFKasKzGa51gsw80l2poU="/>
+            <table:column id="c_com_gbd_union_domain_Res_priority" property="priority" z="E39dI9C/kBkKPNQGhqWLjRcBEE4="/>
+            <table:column id="c_com_gbd_union_domain_Res_descn" property="descn" z="jiSKGZ6mvSujODsEk4vbCExgYic="/>
+        </table:table>
+    </page:list>
+</div>

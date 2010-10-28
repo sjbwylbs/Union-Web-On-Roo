@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_gbd_union_domain_ContactType" object="${contacttype}" path="/contacttypes" z="NTpjNYG7veIwnN1NeGd8JnoAC7U=">
+        <field:display field="name" id="s_com_gbd_union_domain_ContactType_name" object="${contacttype}" z="VpL3og0rAoK7OeBjbqom0yxG83o="/>
+    </page:show>
+</div>

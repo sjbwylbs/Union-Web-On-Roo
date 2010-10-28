@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/messages
+END
+findMessagesByLinkId.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/messages/findMessagesByLinkId.jspx
+END
+show.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/messages/show.jspx
+END
+update.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/messages/update.jspx
+END
+create.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/messages/create.jspx
+END
+findMessagesByCreatedBetween.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/messages/findMessagesByCreatedBetween.jspx
+END
+findMessagesByCp.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/messages/findMessagesByCp.jspx
+END
+findMessagesBySp.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/messages/findMessagesBySp.jspx
+END
+views.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/messages/views.xml
+END
+findMessagesByMobile.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/messages/findMessagesByMobile.jspx
+END
+list.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/messages/list.jspx
+END

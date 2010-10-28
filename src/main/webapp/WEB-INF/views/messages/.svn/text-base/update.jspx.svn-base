@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_gbd_union_domain_Message" modelAttribute="message" path="/messages" z="dDiKmdFwp18lJLsxLZ5v/gDeck0=">
+        <field:input field="mobile" id="c_com_gbd_union_domain_Message_mobile" max="20000000000" min="10000000000" required="true" validationMessageCode="field_invalid_integer" z="k2dDLzVcu/lh1mwbmcBxtcmnVFA="/>
+        <field:textarea field="command" id="c_com_gbd_union_domain_Message_command" required="true" z="nRlE6t1ptRNkj5wdlj8NxDdFJmA="/>
+        <field:input field="spcode" id="c_com_gbd_union_domain_Message_spcode" max="20" required="true" z="v4SwME6zT/XZx/AMrpUVetk4P8Q="/>
+        <field:input field="serviceId" id="c_com_gbd_union_domain_Message_serviceId" max="20" z="+yPLfA2TuSgG36nwEE31zzrNKVk="/>
+        <field:input field="linkId" id="c_com_gbd_union_domain_Message_linkId" max="20" z="dNirjUKJmBVzFlR5dyXIMLTEfJQ="/>
+        <field:datetime dateTimePattern="${message_created_date_format}" field="created" id="c_com_gbd_union_domain_Message_created" required="true" z="58TudGwC5u6o5gnC5f1GDZ4JPfw="/>
+        <field:datetime dateTimePattern="${message_updated_date_format}" field="updated" id="c_com_gbd_union_domain_Message_updated" z="83S/QzeLliVUP15UowquTmCnzmA="/>
+        <field:select field="synStatus" id="c_com_gbd_union_domain_Message_synStatus" items="${eventstatuses}" path="eventstatuses" z="1Swd2c9HeUsTjZHOjmMDiA8VbCU="/>
+        <field:input field="synTimes" id="c_com_gbd_union_domain_Message_synTimes" max="10" min="0" validationMessageCode="field_invalid_integer" z="0sparQoFzQptkYuW8Ql9Z+2YU6s="/>
+        <field:datetime dateTimePattern="${message_syned_date_format}" field="syned" id="c_com_gbd_union_domain_Message_syned" z="naShE2LWGkG96Kh69kHQUvFFSuk="/>
+        <field:checkbox field="isEnable" id="c_com_gbd_union_domain_Message_isEnable" z="pqOoDJ2T2LJNzZ8WkLILji0uARg="/>
+        <field:select field="province" id="c_com_gbd_union_domain_Message_province" itemValue="id" items="${provinces}" path="/provinces" z="Y9HgiWVzY8SBGkUD5m90tIZtwKE="/>
+        <field:select field="city" id="c_com_gbd_union_domain_Message_city" itemValue="id" items="${citys}" path="/citys" z="BPyeduUWRVNLJ3JnghW9jVXfqqQ="/>
+        <field:select field="status" id="c_com_gbd_union_domain_Message_status" itemValue="id" items="${statustypes}" path="/statustypes" required="true" z="1UmnZzRRioWB8UB3pxaD61mrcXM="/>
+        <field:select field="cp" id="c_com_gbd_union_domain_Message_cp" itemValue="id" items="${companys}" path="/companys" z="abAd08tne9hhySovomCK8xWdBOU="/>
+        <field:select field="sp" id="c_com_gbd_union_domain_Message_sp" itemValue="id" items="${companys}" path="/companys" z="Z/go219Cl0TCk+u5IQ5pgoH7Ag4="/>
+    </form:update>
+</div>

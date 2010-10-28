@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_gbd_union_domain_Province" items="${provinces}" z="ZEagf3x8n+sHlBF8TrBdgt74tGQ=">
+        <table:table data="${provinces}" id="l_com_gbd_union_domain_Province" path="/provinces" z="ZKNpCu3e9U0muzJd7jaCkkGETv4=">
+            <table:column id="c_com_gbd_union_domain_Province_name" property="name" z="yFFYYwQFXhU5IrG0Fhqq3mjTd0E="/>
+        </table:table>
+    </page:list>
+</div>

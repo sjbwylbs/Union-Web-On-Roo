@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/reference
+END
+CommandType.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/reference/CommandType.java
+END
+EventStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/reference/EventStatus.java
+END
+CompanyType.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/reference/CompanyType.java
+END
+ChannelType.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/reference/ChannelType.java
+END
+ServiceProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/java/com/gbd/union/reference/ServiceProvider.java
+END

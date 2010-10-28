@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_gbd_union_domain_City" items="${citys}" z="8/OJuKxXiL0TdxPGmS8J+QJTxC8=">
+        <table:table data="${citys}" id="l_com_gbd_union_domain_City" path="/citys" z="7svriPqp6iqZvtjozVpAIYOjblI=">
+            <table:column id="c_com_gbd_union_domain_City_name" property="name" z="K8C+2uDDFhGHs4VWooL0rSuufaI="/>
+            <table:column id="c_com_gbd_union_domain_City_ZIP" property="ZIP" z="OxW77C3m+cU6UkDygsph2js5714="/>
+            <table:column id="c_com_gbd_union_domain_City_province" property="province" z="WUZMvYkJqhoreMcg1Rbj3DnBsSE="/>
+        </table:table>
+    </page:list>
+</div>

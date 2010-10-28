@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_gbd_union_domain_Person" modelAttribute="person" path="/people" z="qj0szd7H7R5e1maoSuK7FmF7Gdo=">
+        <field:textarea field="username" id="c_com_gbd_union_domain_Person_username" required="true" z="Pz3fhPkaJBjzJhlPsB5fsu34HpA="/>
+        <field:textarea field="password" id="c_com_gbd_union_domain_Person_password" required="true" z="YWw3a5zXFiROM4+edo1RtryjA9c="/>
+        <field:input field="status" id="c_com_gbd_union_domain_Person_status" required="true" validationMessageCode="field_invalid_integer" z="9HTYu2LlkyB5/J+W3SfPzlmMCco="/>
+        <field:textarea field="descn" id="c_com_gbd_union_domain_Person_descn" required="true" z="fG9GGM0cLrrS2S+pzEXTvV8dTpY="/>
+    </form:update>
+</div>

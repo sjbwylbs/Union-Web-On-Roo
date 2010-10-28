@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_gbd_union_domain_Channel" object="${channel}" path="/channels" z="TyOGLjFq1ntFDGipevI+EGaCzdE=">
+        <field:display field="spcode" id="s_com_gbd_union_domain_Channel_spcode" object="${channel}" z="DFAs6ROJCRoBoatjWaxs85I5bZE="/>
+        <field:display field="serviceId" id="s_com_gbd_union_domain_Channel_serviceId" object="${channel}" z="PJ9brFUoJnOFWyMCP/AfK1fwPOQ="/>
+        <field:display field="command" id="s_com_gbd_union_domain_Channel_command" object="${channel}" z="iwmWtLkqyZxxFKIOybyJKrj+p28="/>
+        <field:display field="commandType" id="s_com_gbd_union_domain_Channel_commandType" object="${channel}" z="l0Jy2zz9gT+csdLDhKYR/M2W/pQ="/>
+        <field:display field="fee" id="s_com_gbd_union_domain_Channel_fee" object="${channel}" z="DcXLZ/X2Ufng5EfXD1Tws08LGmY="/>
+        <field:display field="serviceProvince" id="s_com_gbd_union_domain_Channel_serviceProvince" object="${channel}" z="5F/dHnOf0L3R84rebpXqJxlXIkw="/>
+        <field:display field="confirmProvince" id="s_com_gbd_union_domain_Channel_confirmProvince" object="${channel}" z="hBlQlScduAl9WpS57jUjL0mQmi4="/>
+        <field:display field="channelType" id="s_com_gbd_union_domain_Channel_channelType" object="${channel}" z="HgonolVayBl8iaAnWZwGVhHY8+U="/>
+        <field:display field="serviceProvider" id="s_com_gbd_union_domain_Channel_serviceProvider" object="${channel}" z="ksFqQYbs2JjyodgV1N2FybyTnzY="/>
+        <field:display field="company" id="s_com_gbd_union_domain_Channel_company" object="${channel}" z="SX8kIDz+U66Ppzfi/T0lxwLG6wk="/>
+    </page:show>
+</div>

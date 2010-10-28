@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_gbd_union_domain_Message" items="${messages}" z="x3pO+2Ey0OpoJHpI4LNULCzYQkE=">
+        <table:table data="${messages}" id="l_com_gbd_union_domain_Message" path="/messages" z="2wEJPlhHenUADI5XJsUc96K3j6o=">
+            <table:column id="c_com_gbd_union_domain_Message_mobile" property="mobile" z="VBdAQuig7WyC2DEbCyBa7aICn3g="/>
+            <table:column id="c_com_gbd_union_domain_Message_command" property="command" z="Ws5eaACzOhebdJ70lkkqiBvMnj0="/>
+            <table:column id="c_com_gbd_union_domain_Message_spcode" property="spcode" z="DTjfKEkqWKS2mVJakUnrDkQ5mWk="/>
+            <table:column id="c_com_gbd_union_domain_Message_serviceId" property="serviceId" z="W7bTXdcLUHko1VcpNqQOFqhZVDA="/>
+            <table:column id="c_com_gbd_union_domain_Message_linkId" property="linkId" z="51VvPKrzqrUn8C3RJKwrI/1avVo="/>
+            <table:column id="c_com_gbd_union_domain_Message_created" property="created" z="LiIT9LRuUL5GRXWcUTt+fd54ppo="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views
+END
+uncaughtException.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/uncaughtException.jspx
+END
+footer.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/footer.jspx
+END
+index-template.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/index-template.jspx
+END
+dataAccessFailure.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/dataAccessFailure.jspx
+END
+menu.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/UnionWebV2/!svn/ver/4/trunk/src/main/webapp/WEB-INF/views/menu.jspx
+END
+resourceNotFound.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/resourceNotFound.jspx
+END
+index.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/index.jspx
+END
+header.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/header.jspx
+END
+login.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/login.jspx
+END
+views.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/views.xml
+END

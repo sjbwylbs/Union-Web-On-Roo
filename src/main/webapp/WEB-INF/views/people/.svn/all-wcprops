@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/people
+END
+show.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/people/show.jspx
+END
+update.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/people/update.jspx
+END
+create.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/people/create.jspx
+END
+views.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/people/views.xml
+END
+list.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/people/list.jspx
+END

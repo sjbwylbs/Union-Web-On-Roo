@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/contacttypes
+END
+show.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/contacttypes/show.jspx
+END
+update.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/contacttypes/update.jspx
+END
+create.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/contacttypes/create.jspx
+END
+views.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/contacttypes/views.xml
+END
+list.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/UnionWebV2/!svn/ver/2/trunk/src/main/webapp/WEB-INF/views/contacttypes/list.jspx
+END
